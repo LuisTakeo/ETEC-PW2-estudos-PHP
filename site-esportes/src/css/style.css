@@ -9,6 +9,8 @@ a{
 
 body{
     width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 .cabecalho{
     display: flex;
@@ -55,7 +57,7 @@ body{
 .opcao-link{
     text-decoration: none;
     color: aliceblue;
-    
+    font-size: 1.25em;
     padding: 10px 5em;
 }
 .opcao-link:hover{
@@ -93,27 +95,62 @@ body{
 
 .principalMateria {
     width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 1em 1.50em;
     margin: 0 10px;
     border: 2px solid red;
     background: rgb(255, 255, 248);
     border-radius: 20px;
+    text-align: center;
     
 }
 
-.tituloMateria{
+.tituloMateria, .tituloFormulario{
     margin-bottom: 5px;
+    color: rgba(253, 47, 47, 0.89);
+    text-shadow: 
+               -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
 }
 
 .imagemMateria{
-    width: 100%;
+    width: 80%;
     margin-bottom: 5px;
-    max-width: 20vw;
+    max-width: 50vw;
 }
 
 .textoMateria{
     margin-bottom: 5px;
 }
+
+.bold{
+    font-weight: 700;
+}
+
+
+.form-label {
+    font-size: 1.1em;
+}
+
+.form-input {
+    padding: 5px 15px;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.form-submit {
+    padding: 10px;
+    width: 15vw;
+    margin-top: 5px;
+    background-color: aliceblue;
+    border: rgba(253, 47, 47, 0.89) 2px solid;
+    border-radius: 20px;
+}
+
 
 .rodape{
     display: flex;

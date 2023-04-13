@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JORNAL JORNAL</title>
+    <title>Rockgol - Contato</title>
+    <?php
+            include("./src/font-origin.php");
+            
+        ?>
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
@@ -18,13 +22,13 @@
         <form action="contato2.php" method="post" class="conteudo-formulario">
             <h2 class="tituloFormulario">Esteja sempre informado!</h2>
             <div class="input">
-                <label for="nome">Nome: </label>
-                <input type="text" name="nome" id="nome" placeholder="Insira aqui seu nome">
+                <label class="form-label" for="nome">Nome: </label>
+                <input class="form-input" type="text" name="nome" id="nome" placeholder="Insira aqui seu nome">
             </div>
             <div class="input">
-                <label for="email">Email: </label>
-                <input type="text" name="email" id="email" placeholder="Insira aqui seu email"><br>
-                <input type="submit" value="Enviar">
+                <label class="form-label" for="email">Email: </label>
+                <input class="form-input" type="text" name="email" id="email" placeholder="Insira aqui seu email"><br>
+                <input class="form-submit" type="submit" value="Enviar">
             </div>
             
             
