@@ -1,0 +1,135 @@
+*{
+    margin: 0;  
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(253, 47, 47, 0.89);
+}
+
+.cabecalhoCaixa{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70vw;
+    padding: 2em 0;
+    color: aliceblue;
+    border-bottom: 2px solid aliceblue;
+}
+
+.cabecalhoCaixa h1 a{
+    color: aliceblue;
+}
+
+.cabecalhoCaixa img{
+    width: 15vw;
+    border-radius: 50px;
+}
+
+.navegacao{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid aliceblue;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    margin: 10px 0;
+}
+
+.menu-opcao{
+    list-style-type: none;
+    margin: 10px 2px;
+}
+.opcao-link{
+    text-decoration: none;
+    color: aliceblue;
+    
+    padding: 10px 5em;
+}
+.opcao-link:hover{
+    border: 2px solid aliceblue;
+    border-radius: 25px;
+    background: aliceblue;
+    color: rgba(253, 47, 47, 0.89);
+}
+
+
+.container-conteudo, .container-formulario {
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.conteudo-principal, .conteudo-formulario {
+    margin: 10px 0;
+    border: 2px solid rgba(253, 47, 47, 0.89);
+    border-radius: 50px;
+    width: 100%;
+    max-width: 70vw;
+    padding: 2em;
+    display: flex;
+    background: rgba(255, 131, 117, 0.199);
+
+}
+
+.conteudo-formulario{
+    flex-direction: column;
+    text-align: center;
+}
+
+.principalMateria {
+    width: 50vw;
+    padding: 1em 1.50em;
+    margin: 0 10px;
+    border: 2px solid red;
+    background: rgb(255, 255, 248);
+    border-radius: 20px;
+    
+}
+
+.tituloMateria{
+    margin-bottom: 5px;
+}
+
+.imagemMateria{
+    width: 100%;
+    margin-bottom: 5px;
+    max-width: 20vw;
+}
+
+.textoMateria{
+    margin-bottom: 5px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(253, 47, 47, 0.89);
+    width: 100%;
+
+}
+
+.rodapeCaixa {
+    width: 70vw;
+    text-align: center;
+    padding: 3em;
+}
+
+.rodapeInfo {
+    color: aliceblue;
+}
