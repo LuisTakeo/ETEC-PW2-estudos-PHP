@@ -23,7 +23,8 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 70vw;
+    width: 100%;
+    max-width: 70vw;
     padding: 2em 0;
     color: aliceblue;
     border-bottom: 2px solid aliceblue;
@@ -46,7 +47,8 @@ body{
 .menu{
     display: flex;
     justify-content: center;
-    width: 70vw;
+    width: 100%;
+    max-width: 70vw;
     margin: 10px 0;
 }
 
@@ -69,7 +71,7 @@ body{
 
 
 .container-conteudo, .container-formulario {
-    border: 2px solid red;
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -82,6 +84,8 @@ body{
     border-radius: 50px;
     width: 100%;
     max-width: 70vw;
+    height: 100%;
+    min-height: 40vh;
     padding: 2em;
     display: flex;
     background: rgba(255, 131, 117, 0.199);
@@ -94,7 +98,8 @@ body{
 }
 
 .principalMateria {
-    width: 50vw;
+    width: 100%;
+    max-width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,4 +174,14 @@ body{
 
 .rodapeInfo {
     color: aliceblue;
+    font-size: 1.2em;
+}
+
+
+@media screen and (max-width: 1280px){
+    .conteudo-principal{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
 }
